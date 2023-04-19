@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0">
+    <anfPropertyIndex compatVersion="{Long}2" async="async" jcr:primaryType="oak:QueryIndexDefinition" evaluatePathRestrictions="{Boolean}true" type="lucene">
+        <indexRules jcr:primaryType="nt:unstructured">
+            <cq:PageContent jcr:primaryType="nt:unstructured">
+                <properties jcr:primaryType="nt:unstructured">
+                    <anfCodeChallenge name="anfCodeChallenge" propertyIndex="{Boolean}true" jcr:primaryType="nt:unstructured" notNullCheckEnabled="{Boolean}true"/>
+                </properties>
+            </cq:PageContent>
+        </indexRules>
+    </anfPropertyIndex>
+</jcr:root>
